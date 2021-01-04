@@ -1,0 +1,26 @@
+Database:
+  DBType: mysql
+  UserName: root
+  Password: password
+  Host: 127.0.0.1:3306
+  DBName: dig
+  Charset: utf8
+  ParseTime: True
+  MaxIdleConns: 10
+  MaxOpenConns: 30
+Server:
+  RunMode: debug
+  HttpPort: 8000
+  ReadTimeout: 60
+  WriteTimeout: 60
+Log:
+  LogFilePath: /data/gologs/logs
+  LogInfoFileName: info
+  LogWarnFileName: warn
+  LogFileExt: log
+AccessLog:
+  LogFilePath: /data/gologs/logs
+  LogFileName: access
+  LogFileExt: log
+Limiter:
+  CountPerSecond: 7
